@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Atributos</title>
+    <!-- Caminho correto para o arquivo style.css -->
+    <link rel="stylesheet" href="/public/css/style.css">
+    <!-- Se estiver usando o Bootstrap, adicione o link do CDN -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+</head>
+<body>
+    <h1 style="text-align: center;">Termômetro de Atributos</h1>
+    <h2 style="text-align: center;">Ponto Neutro</h2><br>
+    <div class="container" id="container">
+        <!-- A barra e os rótulos serão injetados via JavaScript -->
+    </div>
+
+    <!-- Resultados -->
+    <section id="result-section" class="mt-4 bg-light text-center">
+        <div style="text-align: center" container>
+            <h2>Resultado:</h2>
+
+            <!-- Exibe o resultado gerado -->
+            <div>
+                <span id="result-text">Nenhum resultado gerado ainda.</span>
+            </div>
+            <br>
+
+            <!-- Botão para copiar o resultado -->
+            <button class="btn btn-primary" onclick="copyResult()">Copiar Resultado</button><br><br>
+
+            <!-- Campo para inserir um resultado -->
+        </div>
+    </section>
+
+    <!-- Caminho correto para o arquivo script.js -->
+    <script src="/public/js/script.js"></script>
+
+</body>
+</html>
